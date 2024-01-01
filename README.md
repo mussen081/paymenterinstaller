@@ -50,7 +50,7 @@ Be sure that the paymenter.service is running and you dont have a certicate and 
 
 * [SantiagolxxGG](https://github.com/SantiagolxxGG)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/SantiagolxxGG/paymenterinstaller/contributors) who participated in this project.
 
 ## License
 
