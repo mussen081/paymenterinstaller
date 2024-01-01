@@ -19,12 +19,15 @@ echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /et
 curl -fsSL  https://packages.sury.org/php/apt.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/sury-keyring.gpg
 
 apt update -y
+```
+```
 General:
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
 
 LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo 
+```
 
 ```
 Installing and executing the script.
