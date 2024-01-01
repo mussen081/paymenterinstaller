@@ -9,9 +9,9 @@ These instructions will teach you about to make a correct instalation of payment
 
 What things you need to install the software and how to install them
 
-```
 All dependencies are installed in this script but if you are using other linux distro that is not Ubuntu you have to run these commands
 Debian:
+```
 apt -y install software-properties-common curl ca-certificates gnupg2 sudo lsb-release
 
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/sury-php.list
