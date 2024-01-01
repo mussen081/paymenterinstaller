@@ -49,7 +49,7 @@ elif [ $idioma == "en" ]; then
 elif [ $idioma == "de" ]; then
     echo "Willkommen beim Installer auf Deutsch!"
     echo "Lade die deutsche Skriptversion herunter..."
-    curl -O https://raw.githubusercontent.com/SantiagolxxGG/pmtinstassets/main/paymenter_german.sh
+    curl -O https://raw.githubusercontent.com/SantiagolxxGG/pmtinstassets/main/Paymenter_Deutsch.sh
     chmod +x paymenter_german.sh
     echo "Führe das Skript auf Deutsch aus..."
     bash paymenter_german.sh
