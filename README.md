@@ -37,9 +37,7 @@ bash installer.sh
 ```
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+be sure that if you using external db that the port 3306 is open
 
 ```
 After running the script, you will be asked about the language that you want to use. If you use "en," the script would be in English; if you use "es," it's going to be in Spanish.
