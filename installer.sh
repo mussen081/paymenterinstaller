@@ -7,9 +7,10 @@
 #!/bin/bash
 
 # Pregunta al usuario el idioma para el instalador
-echo "En qué idioma quieres el instalador? / In what language do you want to use the installer?"
+echo "In welcher Sprache möchten Sie den Installer verwenden? / In what language do you want to use the installer?"
 echo "1. Español / Spanish"
 echo "2. Inglés / English"
+echo "3. Deutsch / German"
 # Lee la respuesta del usuario
 read opcion
 
@@ -21,9 +22,11 @@ case $opcion in
     2)
         idioma="en"
         ;;
-    3) idioma="de"   
+    3)
+        idioma="de"
+        ;;
     *)
-        echo "Opción no válida. Seleccionando inglés por defecto."
+        echo "Ungültige Option. Englisch wird standardmäßig ausgewählt."
         idioma="en"
         ;;
 esac
@@ -43,4 +46,11 @@ elif [ $idioma == "en" ]; then
     chmod +x paymenter_english.sh
     echo "executing script..."
     bash paymenter_english.sh
+elif [ $idioma == "de" ]; then
+    echo "Willkommen beim Installer auf Deutsch!"
+    echo "Lade die deutsche Skriptversion herunter..."
+    curl -O https://raw.githubusercontent.com/SantiagolxxGG/pmtinstassets/main/paymenter_german.sh
+    chmod +x paymenter_german.sh
+    echo "Führe das Skript auf Deutsch aus..."
+    bash paymenter_german.sh
 fi
