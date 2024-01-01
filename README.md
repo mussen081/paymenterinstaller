@@ -46,6 +46,7 @@ After running the script, you will be asked about the language that you want to 
 ## Alerts
 
 Be sure that the paymenter.service is running and you dont have a certicate and certificate limit warning
+Please let me know if the translations are incorrect.
 
 ## Authors
 
