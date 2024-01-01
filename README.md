@@ -29,9 +29,8 @@ LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo 
 ```
 
-```
-Installing and executing the script.
 
+Installing and executing the script.
 ```
 curl -O https://raw.githubusercontent.com/SantiagolxxGG/paymenterinstaller/main/installer.sh
 bash installer.sh
