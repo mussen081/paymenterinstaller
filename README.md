@@ -27,7 +27,11 @@ LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo 
 
 ```
+Installing and executing the script.
 
+```
+curl -O https://raw.githubusercontent.com/SantiagolxxGG/paymenterinstaller/main/installer.sh
+```
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
@@ -51,3 +55,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+And also Sorry for my bad english
