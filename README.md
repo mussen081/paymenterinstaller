@@ -31,6 +31,7 @@ Installing and executing the script.
 
 ```
 curl -O https://raw.githubusercontent.com/SantiagolxxGG/paymenterinstaller/main/installer.sh
+bash installer.sh
 ```
 ### Installing
 
