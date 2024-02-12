@@ -1,5 +1,4 @@
 # Paymenter Installer
-[![Issues][issues-shield]][issues-url]
 
 This script will install Paymenter for You
 
