@@ -65,6 +65,10 @@ Please let me know if the translations are incorrect.
 - [x] Auto config for .env
 - [x] Auto Database Config
 
+# To do
+Add support for Apache
+Upgrade some stuff for the installer
+
 ## Authors
 
 * [SantiagolxxGG](https://github.com/SantiagolxxGG)
