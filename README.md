@@ -1,4 +1,5 @@
 # Paymenter Installer
+[![Issues][issues-shield]][issues-url]
 
 This script will install Paymenter for You
 
@@ -57,6 +58,13 @@ OPTIONS:
 Be sure that the paymenter.service is running and you dont have a certicate and certificate limit warning.
 
 Please let me know if the translations are incorrect.
+
+## Features
+- [x] Multiple Lenguages
+- [x] Auto configuration for nginx
+- [x] Auto SSL Config
+- [x] Auto config for .env
+- [x] Auto Database Config
 
 ## Authors
 
