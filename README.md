@@ -54,7 +54,8 @@ OPTIONS:
 
 ## Alerts
 
-Be sure that the paymenter.service is running and you dont have a certicate and certificate limit warning
+Be sure that the paymenter.service is running and you dont have a certicate and certificate limit warning.
+
 Please let me know if the translations are incorrect.
 
 ## Authors
