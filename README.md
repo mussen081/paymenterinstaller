@@ -9,7 +9,8 @@ These instructions will teach you about to make a correct instalation of payment
 
 What things you need to install the software and how to install them
 
-All dependencies are installed in this script but if you are using other linux distro that is not Ubuntu you have to run these commands
+All dependencies are installed in this script but if you are using other linux distro that is not Ubuntu you have to run these commands.
+And also. U need to install Curl
 
 Debian:
 ```
@@ -19,6 +20,8 @@ echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /et
 
 curl -fsSL  https://packages.sury.org/php/apt.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/sury-keyring.gpg
 
+apt install curl
+
 apt update -y
 ```
 General:
@@ -26,6 +29,8 @@ General:
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
 
 LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
+
+apt install curl
 
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo 
 ```
@@ -38,10 +43,13 @@ bash installer.sh
 ```
 ### Installing
 
-be sure that if you using external db that the port 3306 is open
-
+When You run the installer.sh You will be asked about what lenguage to use.
+rn we have: Spanish, English, Deutsch 
+OPTIONS:
 ```
-After running the script, you will be asked about the language that you want to use. If you use "en," the script would be in English; if you use "es," it's going to be in Spanish.
+1. Español / Spanish
+2. Inglés / English
+3. Deutsch / German
 ```
 
 ## Alerts
