@@ -34,6 +34,8 @@ apt install curl
 
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo 
 ```
+#Compatibilities
+Only Debian Based  Systems
 
 
 Installing and executing the script.
