@@ -9,7 +9,7 @@
 # Pregunta al usuario el idioma para el instalador
 echo "In welcher Sprache möchten Sie den Installer verwenden? / In what language do you want to use the installer / En que idioma deseas utilizar el instalador?"
 echo "1. Español / Spanish"
-echo "2. Inglés / English"
+echo "2. English / English"
 echo "3. Deutsch / German"
 # Lee la respuesta del usuario
 read opcion
