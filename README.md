@@ -34,10 +34,7 @@ apt install curl
 
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo 
 ```
-#Compatibilities
-Only Debian Based  Systems
-
-
+ 
 Installing and executing the script.
 ```
 curl -O https://raw.githubusercontent.com/SantiagolxxGG/paymenterinstaller/main/installer.sh
@@ -50,13 +47,14 @@ rn we have: Spanish, English, Deutsch
 OPTIONS:
 ```
 1. Español / Spanish
-2. Inglés / English
-3. Deutsch / German
+2. English / English
+3. Deutsch / Deutsch
 ```
 
 ## Alerts
 
 Be sure that the paymenter.service is running and you dont have a certicate and certificate limit warning.
+Also... Only can be used in Debian Based Systems
 
 Please let me know if the translations are incorrect.
 
