@@ -43,9 +43,9 @@ elif [ $idioma == "en" ]; then
     echo "Welcome to the installer in English!"
     echo "Downloading English script version..."
     curl -O https://raw.githubusercontent.com/mussen081/test/main/paymenter_english1.sh
-    chmod +x paymenter_english.sh
+    chmod +x paymenter_english1.sh
     echo "executing script..."
-    bash paymenter_english.sh
+    bash paymenter_english1.sh
 elif [ $idioma == "de" ]; then
     echo "Willkommen beim Installer auf Deutsch!"
     echo "Lade die deutsche Skriptversion herunter..."
