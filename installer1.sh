@@ -42,7 +42,7 @@ if [ $idioma == "es" ]; then
 elif [ $idioma == "en" ]; then
     echo "Welcome to the installer in English!"
     echo "Downloading English script version..."
-    curl -O https://raw.githubusercontent.com/SantiagolxxGG/pmtinstassets/main/paymenter_english.sh
+    curl -O https://raw.githubusercontent.com/mussen081/test/main/paymenter_english1.sh
     chmod +x paymenter_english.sh
     echo "executing script..."
     bash paymenter_english.sh
